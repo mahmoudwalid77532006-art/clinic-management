@@ -26,8 +26,7 @@ A full-stack clinic management system built with Laravel, featuring an Arabic RT
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/<your-username>/clinic-management.git
-cd clinic-management
+git clone https://github.com/mahmoudwalid77532006-art/clinic-management.git
 
 composer install
 cp .env.example .env
@@ -36,7 +35,15 @@ php artisan key:generate
 php artisan migrate --seed
 php artisan serve
 ```
+## 🔑 Demo Accounts
 
+بعد تشغيل `php artisan migrate --seed` تقدر تدخل بأي حساب من دول (الباسورد للكل: `password`):
+
+| Role | Email |
+|------|-------|
+| Admin | `admin@clinic.test` |
+| Doctor | `doctor1@clinic.test` |
+| Patient | `patient1@clinic.test` |
 
 ## 📂 Project Structure
 
@@ -55,5 +62,6 @@ public/css/clinic.css      # Design system
 
 ## 👤 Author
 
-**<Mahmoud Walid>** — Computer Science student & Backend Developer 
+**Mahmoud Walid** — Computer Science student & Backend Developer
+
 [LinkedIn](https://www.linkedin.com/in/mahmoud-walidd/) · [Portfolio](https://mahmoudwalid77532006-art.github.io/portofolio/)
