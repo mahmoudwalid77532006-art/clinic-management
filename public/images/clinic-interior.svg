@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" width="520" height="420">
+  <defs>
+    <clipPath id="r"><rect width="520" height="420" rx="28"/></clipPath>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CDEFF5"/><stop offset="1" stop-color="#EAF9F6"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0FBF9"/><stop offset="1" stop-color="#DDF3EF"/></linearGradient>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="520" height="420" fill="url(#wall)"/>
+    <rect y="306" width="520" height="114" fill="#C8E4DE"/>
+    <rect y="300" width="520" height="8" fill="#B4D8D0"/>
+    <!-- ceiling lights -->
+    <g stroke="#0A3533" stroke-width="2"><line x1="120" y1="0" x2="120" y2="42"/><line x1="290" y1="0" x2="290" y2="30"/><line x1="440" y1="0" x2="440" y2="42"/></g>
+    <g fill="#0F766E"><path d="M98 62a22 22 0 0144 0z"/><path d="M270 50a20 20 0 0140 0z"/><path d="M418 62a22 22 0 0144 0z"/></g>
+    <g fill="#FDE68A" opacity=".55"><ellipse cx="120" cy="66" rx="18" ry="5"/><ellipse cx="290" cy="54" rx="16" ry="4.5"/><ellipse cx="440" cy="66" rx="18" ry="5"/></g>
+    <!-- window -->
+    <rect x="30" y="96" width="152" height="166" rx="10" fill="#fff" stroke="#A8D3CB" stroke-width="4"/>
+    <rect x="40" y="106" width="132" height="146" rx="5" fill="url(#sky)"/>
+    <circle cx="138" cy="140" r="16" fill="#FDE68A"/>
+    <path d="M40 252v-52h20v-14h18v30h14v-22h20v-10h20v68z" fill="#A8D3CB" opacity=".8"/>
+    <path d="M40 252v-30h16v-8h14v20h20v-14h16v32z" fill="#7EBFB3" opacity=".9"/>
+    <line x1="106" y1="106" x2="106" y2="252" stroke="#A8D3CB" stroke-width="4"/><line x1="40" y1="178" x2="172" y2="178" stroke="#A8D3CB" stroke-width="4"/>
+    <!-- clinic sign -->
+    <rect x="212" y="78" width="68" height="68" rx="16" fill="#E2611A"/><path d="M236 90h20v18h18v20h-18v18h-20v-18h-18v-20h18z" fill="#fff" transform="translate(0 -6)"/>
+    <rect x="216" y="152" width="60" height="7" rx="3.5" fill="#0F766E"/>
+    <!-- frames -->
+    <rect x="322" y="92" width="76" height="56" rx="8" fill="#fff" stroke="#A8D3CB" stroke-width="3"/>
+    <path d="M330 122h14l6-14 8 26 7-18 4 6h20" fill="none" stroke="#E2611A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="412" y="92" width="76" height="56" rx="8" fill="#fff" stroke="#A8D3CB" stroke-width="3"/>
+    <circle cx="450" cy="118" r="14" fill="#D3F2ED"/><path d="M443 118h14M450 111v14" stroke="#0F766E" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- reception desk -->
+    <rect x="200" y="252" width="236" height="92" rx="12" fill="#0F766E"/>
+    <rect x="200" y="252" width="236" height="14" rx="7" fill="#0A3533"/>
+    <rect x="218" y="280" width="60" height="50" rx="8" fill="#14A89A"/><rect x="290" y="280" width="60" height="50" rx="8" fill="#14A89A"/><rect x="362" y="280" width="60" height="50" rx="8" fill="#14A89A"/>
+    <path d="M304 296h32M320 288v16" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+    <!-- monitor + lamp + plant on desk -->
+    <rect x="232" y="208" width="72" height="46" rx="6" fill="#0A3533"/><rect x="238" y="214" width="60" height="34" rx="3" fill="#D3F2ED"/>
+    <path d="M244 236h12l5-10 7 18 6-12 3 4h12" fill="none" stroke="#0F766E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="264" y="254" width="12" height="0" /><rect x="262" y="250" width="16" height="4" fill="#0A3533"/>
+    <rect x="386" y="232" width="22" height="20" rx="4" fill="#fff"/><path d="M397 232c-14-10-14-30 0-36 14 6 14 26 0 36z" fill="#34D399"/><path d="M397 232c-4-8-4-20 0-28" stroke="#0F9D8F" stroke-width="2" fill="none"/>
+    <!-- waiting chairs -->
+    <g transform="translate(0 4)"><rect x="452" y="262" width="52" height="34" rx="10" fill="#E2611A"/><rect x="448" y="286" width="60" height="16" rx="8" fill="#C24D0E"/><rect x="456" y="302" width="6" height="20" fill="#0A3533"/><rect x="494" y="302" width="6" height="20" fill="#0A3533"/></g>
+    <!-- plant left -->
+    <rect x="28" y="330" width="44" height="46" rx="8" fill="#fff" stroke="#A8D3CB" stroke-width="3"/>
+    <path d="M50 330c-30-18-34-52-8-68 8 20 12 38 8 68zM50 330c10-30 26-48 44-46-2 22-16 38-44 46zM50 330c-4-34 6-56 22-66 6 22 0 44-22 66z" fill="#34D399"/>
+    <path d="M50 330c-14-20-22-40-14-58" fill="none" stroke="#0F9D8F" stroke-width="2.5"/>
+    <!-- rug -->
+    <ellipse cx="270" cy="384" rx="160" ry="16" fill="#B4D8D0"/>
+  </g>
+</svg>

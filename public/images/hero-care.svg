@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" width="560" height="520">
+  <defs>
+    <linearGradient id="disc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ECFAF7"/><stop offset="1" stop-color="#BFEDE6"/></linearGradient>
+    <linearGradient id="heart" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5EEAD4"/><stop offset="1" stop-color="#0F9D8F"/></linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#041F1E" flood-opacity=".22"/></filter>
+  </defs>
+  <circle cx="290" cy="262" r="226" fill="url(#disc)"/>
+  <circle cx="290" cy="262" r="226" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2" stroke-dasharray="3 9"/>
+  <!-- heart -->
+  <path d="M290 418C158 332 116 250 150 192c32-54 105-50 140 8 35-58 108-62 140-8 34 58-8 140-140 226z" fill="url(#heart)" filter="url(#sh)"/>
+  <path d="M290 418C158 332 116 250 150 192c32-54 105-50 140 8 35-58 108-62 140-8 34 58-8 140-140 226z" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="3"/>
+  <!-- ECG across heart -->
+  <path d="M96 266h112l26-52 34 118 34-160 30 94h34l16-24h86" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M96 266h112l26-52 34 118 34-160 30 94h34l16-24h86" fill="none" stroke="#E2611A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- stethoscope -->
+  <g fill="none" stroke="#0A3533" stroke-width="9" stroke-linecap="round">
+    <path d="M246 78v50c0 42 18 72 44 72s44-30 44-72V78" transform="translate(0 -10)"/>
+    <path d="M290 190v46c0 40 22 54 44 54"/>
+  </g>
+  <circle cx="246" cy="66" r="11" fill="#0A3533"/><circle cx="334" cy="66" r="11" fill="#0A3533"/>
+  <circle cx="290" cy="190" r="9" fill="#0F766E" stroke="#0A3533" stroke-width="4"/>
+  <circle cx="352" cy="298" r="34" fill="#0A3533" filter="url(#sh)"/><circle cx="352" cy="298" r="24" fill="#E2611A"/><circle cx="352" cy="298" r="13" fill="#fff"/><circle cx="352" cy="298" r="5" fill="#0A3533"/>
+  <!-- card: appointment -->
+  <g filter="url(#sh)"><rect x="24" y="92" width="190" height="80" rx="18" fill="#fff"/></g>
+  <circle cx="64" cy="132" r="22" fill="#FFE6D3"/><rect x="52" y="121" width="24" height="22" rx="5" fill="#E2611A"/><rect x="52" y="121" width="24" height="7" rx="3" fill="#C24D0E"/><path d="M58 135l5 5 9-10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="98" y="116" width="90" height="10" rx="5" fill="#0A3533"/><rect x="98" y="138" width="62" height="8" rx="4" fill="#A9CFCA"/>
+  <!-- card: calendar -->
+  <g filter="url(#sh)"><rect x="352" y="70" width="180" height="88" rx="18" fill="#fff"/></g>
+  <rect x="368" y="86" width="40" height="10" rx="5" fill="#0A3533"/>
+  <g fill="#D3F2ED"><rect x="368" y="106" width="20" height="18" rx="5"/><rect x="394" y="106" width="20" height="18" rx="5"/><rect x="420" y="106" width="20" height="18" rx="5"/><rect x="446" y="106" width="20" height="18" rx="5"/><rect x="472" y="106" width="20" height="18" rx="5"/><rect x="368" y="129" width="20" height="14" rx="5"/></g>
+  <rect x="420" y="106" width="20" height="18" rx="5" fill="#0F766E"/>
+  <!-- card: prescription -->
+  <g filter="url(#sh)"><rect x="352" y="392" width="184" height="90" rx="18" fill="#fff"/></g>
+  <rect x="370" y="408" width="36" height="46" rx="8" fill="#D3F2ED"/><path d="M382 424h12M388 418v12" stroke="#0F766E" stroke-width="3.5" stroke-linecap="round"/><rect x="376" y="440" width="24" height="4" rx="2" fill="#0F766E" opacity=".5"/>
+  <rect x="418" y="414" width="86" height="10" rx="5" fill="#0A3533"/><rect x="418" y="434" width="62" height="8" rx="4" fill="#A9CFCA"/><rect x="418" y="450" width="74" height="8" rx="4" fill="#A9CFCA"/>
+  <!-- card: shield / privacy -->
+  <g filter="url(#sh)"><rect x="30" y="378" width="150" height="76" rx="18" fill="#fff"/></g>
+  <path d="M68 396l22 8v14c0 14-9 22-22 27-13-5-22-13-22-27v-14z" fill="#E2611A"/><path d="M58 418l7 7 12-14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="104" y="404" width="56" height="9" rx="4.5" fill="#0A3533"/><rect x="104" y="422" width="40" height="7" rx="3.5" fill="#A9CFCA"/>
+  <!-- sparkles -->
+  <g fill="#E2611A" opacity=".9"><rect x="500" y="200" width="9" height="30" rx="3"/><rect x="489.5" y="210.5" width="30" height="9" rx="3"/></g>
+  <g fill="#0F766E" opacity=".4"><rect x="40" y="264" width="8" height="24" rx="3"/><rect x="32" y="272" width="24" height="8" rx="3"/></g>
+  <circle cx="512" cy="330" r="9" fill="#0F766E" opacity=".3"/><circle cx="238" cy="30" r="7" fill="#E2611A" opacity=".6"/>
+</svg>
