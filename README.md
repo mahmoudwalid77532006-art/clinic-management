@@ -16,6 +16,20 @@ A full-stack clinic management system built with Laravel, featuring an Arabic RT
 - **Landing page:** صفحة رئيسية بتعرض الأقسام والخدمات والأطباء
 - **Responsive design:** بتشتغل على الموبايل والديسكتوب
 
+## 📸 Screenshots
+
+### الصفحة الرئيسية
+![Home](screenshots/home.png)
+
+### تسجيل الدخول
+![Login](screenshots/login.png)
+
+### المواعيد
+![Appointments](screenshots/appointments.png)
+
+### الروشتة
+![Prescription](screenshots/prescription.png)
+
 ## 🛠️ Tech Stack
 
 - **Backend:** Laravel, PHP
